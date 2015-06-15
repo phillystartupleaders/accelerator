@@ -1,0 +1,341 @@
+/*
+
+PSLU Logo Colors
+
+Blue:   #0c4c68
+Greeen: #74B378
+
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.disable-hover,
+.disable-hover * {
+  pointer-events: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Kreon", sans-serif;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.thin {
+  font-weight: 300;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+.lower-roman {
+  list-style-type: lower-roman;
+}
+
+blockquote {
+  color: #000000;
+  font-family: "Kreon", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Top Section */
+
+.top-container {
+  background: url("../img/top-bg-blue.png") no-repeat center -90px fixed;
+  background-size: cover;
+  height: 500px;
+  /*margin-bottom: 50px;*/
+  padding-top: 20px;
+  border-bottom: 5px solid #74B378;
+}
+
+.top-container.sponsors {
+  height: 350px;
+  background-position: center -150px;
+}
+
+.logo-container {
+  background-image: url("../img/pslu_logo_white.png");
+  background-size: 200px 70px;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  height: 70px;
+  width: 200px;
+  display: inline-block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.intro {
+  color: #fff;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.intro a {
+  color: #fff;
+}
+
+.intro-welcome {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.intro .intro-meta {
+  text-align: left;
+  margin-top: 90px;
+}
+
+.intro .intro-meta > p {
+  margin-bottom: 0;
+}
+
+.intro .intro-meta .bold {
+  margin-right: 15px;
+}
+
+.register {
+  margin-top: 50px;
+}
+
+.register-bottom {
+  margin: 80px 0 50px;
+}
+
+.main-heading {
+  color: #fff;
+  font-size: 100px;
+}
+
+.subheading {
+  color: #fff;
+}
+
+.subheading.sponsors {
+  text-align: center;
+}
+
+/* Info Container */
+
+.info-container {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+.more-info-btn {
+  color: #74B378;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: 2px solid #74B378;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.section-who-container {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.section-who {
+  padding-top: 40px;
+  /*background-color: #fafafa;*/
+  /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);*/
+}
+
+.section-who i {
+  color: #fff;
+  font-size: 75px;
+  background-color: #74B378;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-radius: 100px;
+  line-height: 1.4em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.section-block {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.section-block > div {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.accelerate-icon i {
+  color: #fff;
+  font-size: 100px;
+  background-color: #74B378;
+  height: 130px;
+  width: 130px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-radius: 100px;
+  line-height: 1.2;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.section-what {
+  background-color: #fafafa;
+  padding: 40px 0;
+}
+
+.section-faq {
+  background-color: #f2f2f2;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.heading-faq {
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.session h3 {
+  padding-bottom: 10px;
+  margin-bottom: 2px;
+  border-bottom: 1px solid #dadada;
+}
+
+.session h4 {
+  line-height: 1.2em;
+}
+
+#footer {
+  color: #fff;
+  background-color: #74B378;
+}
+
+.footer-text {
+  font-size: 12px;
+  font-weight: 300;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.faq {
+  color: #74B378;
+  font-size: 22px;
+  font-weight: 700;
+  position: relative;
+  top: 1px;
+}
+
+.checks li {
+  margin-bottom: 2px;
+  clear: both;
+}
+
+.checks li i {
+  color: #74B378;
+  font-size: 26px;
+  padding-right: 15px;
+  position: relative;
+  top: 3px;
+}
+
+.accordion {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.accordion .accordion-navigation > a {
+  border-bottom: 1px solid #cccccc;
+}
+
+.accordion-navigation .content {
+  font-size: .9rem;
+}
+
+@media only screen and (max-width: 40em) {
+
+  .register {
+    margin-top: 20px;
+  }
+
+  .top-container {
+    background: url("../img/top-bg-blue.png") no-repeat center -150px fixed;
+    height: 400px;
+  }
+
+  .main-heading {
+    font-size: 42px;
+  }
+
+  .subheading {
+    font-size: 16px;
+  }
+
+  .subheading.sponsors {
+    text-align: center;
+  }
+
+  .intro {
+    margin-top: 30px;
+  }
+
+  .intro .intro-meta,
+  .intro .register {
+    margin-top: 20px;
+  }
+
+  .intro .intro-meta > p {
+    font-size: 13px;
+  }
+
+  .session h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .session ul li {
+    font-size: 16px;
+  }
+
+  .tabs .tab-title > a {
+    padding: .5rem 1rem;
+  }
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+  .main-heading {
+    font-size: 85px;
+  }
+
+  .intro .intro-meta,
+  .intro .register {
+    margin-top: 60px;
+  }
+
+
+}
