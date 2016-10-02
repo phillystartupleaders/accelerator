@@ -53,8 +53,6 @@ blockquote {
 .top-container {
   background: url("../img/top-bg-blue.png") no-repeat center -90px fixed;
   background-size: cover;
-  height: 500px;
-  /*margin-bottom: 50px;*/
   padding-top: 20px;
   border-bottom: 5px solid #74B378;
 }
@@ -65,14 +63,14 @@ blockquote {
 }
 
 .logo-container {
-  background-image: url("../img/pslu_logo_white.png");
-  background-size: 200px 70px;
+  background-image: url("../img/pslu_logo_light.png");
+  background-size: 300px 49px;
   background-repeat: no-repeat;
 }
 
 .logo {
-  height: 70px;
-  width: 200px;
+  height: 49px;
+  width: 300px;
   display: inline-block;
   text-indent: 100%;
   white-space: nowrap;
@@ -205,6 +203,11 @@ blockquote {
   clear: both;
 }
 
+.section-contact {
+  padding: 40px 0;
+  text-align: center;
+}
+
 .heading {
   font-size: 30px;
 }
@@ -277,7 +280,6 @@ blockquote {
 
   .top-container {
     background: url("../img/top-bg-blue.png") no-repeat center -150px fixed;
-    height: 400px;
   }
 
   .main-heading {
