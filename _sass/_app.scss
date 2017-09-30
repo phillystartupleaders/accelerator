@@ -41,11 +41,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 blockquote {
-  color: #000000;
-  font-family: "Kreon", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 400;
+  letter-spacing: 0;
+  margin-bottom: 40px;
+
+  cite {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #222;
+  }
 }
 
 /* Top Section */
@@ -144,8 +150,12 @@ blockquote {
   text-align: center;
 }
 
+.section-who-for-container {
+  padding: 40px 0;
+}
+
 .section-who-container {
-  background-color: #fff;
+  background-color: #fafafa;
   padding: 40px 0;
 }
 
@@ -193,13 +203,13 @@ blockquote {
 }
 
 .section-what {
-  background-color: #fafafa;
+  background-color: #fff;
   padding: 40px 0;
 }
 
 .section-faq {
   background-color: #f2f2f2;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   clear: both;
 }
 
@@ -208,12 +218,16 @@ blockquote {
   text-align: center;
 }
 
+.section-testimonials {
+  background-color: #fafafa;
+  padding: 40px 0;
+}
+
 .heading {
   font-size: 30px;
 }
 
 .heading-faq {
-  font-size: 50px;
   margin-top: 30px;
 }
 
