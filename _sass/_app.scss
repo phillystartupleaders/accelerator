@@ -54,11 +54,20 @@ blockquote {
   }
 }
 
+.light-gray {
+  background-color: #fafafa;
+}
+
+.gray {
+  background-color: #f2f2f2;
+}
+
 /* Top Section */
 
 .top-container {
   background: url("../img/top-bg-blue.png") no-repeat center -90px fixed;
   background-size: cover;
+  padding-bottom: 40px;
   padding-top: 20px;
   border-bottom: 5px solid #74B378;
 }
@@ -112,12 +121,8 @@ blockquote {
   margin-right: 15px;
 }
 
-.register {
-  margin-top: 50px;
-}
-
 .register-bottom {
-  margin: 80px 0 50px;
+  margin-top: 80px;
 }
 
 .main-heading {
@@ -155,14 +160,11 @@ blockquote {
 }
 
 .section-who-container {
-  background-color: #fafafa;
   padding: 40px 0;
 }
 
 .section-who {
   padding-top: 40px;
-  /*background-color: #fafafa;*/
-  /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);*/
 }
 
 .section-who i {
@@ -184,7 +186,7 @@ blockquote {
 }
 
 .section-block > div {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -202,13 +204,15 @@ blockquote {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
+.section-about {
+  padding: 40px 0;
+}
+
 .section-what {
-  background-color: #fff;
   padding: 40px 0;
 }
 
 .section-faq {
-  background-color: #f2f2f2;
   padding-bottom: 40px;
   clear: both;
 }
@@ -219,8 +223,11 @@ blockquote {
 }
 
 .section-testimonials {
-  background-color: #fafafa;
   padding: 40px 0;
+}
+
+.section-bottom-about {
+  padding-bottom: 40px;
 }
 
 .heading {
@@ -288,9 +295,9 @@ blockquote {
 
 @media only screen and (max-width: 40em) {
 
-  .register {
-    margin-top: 20px;
-  }
+  // .register {
+  //   margin-top: 20px;
+  // }
 
   .top-container {
     background: url("../img/top-bg-blue.png") no-repeat center -150px fixed;
@@ -313,7 +320,7 @@ blockquote {
   }
 
   .intro .intro-meta,
-  .intro .register {
+  .intro {
     margin-top: 20px;
   }
 
@@ -344,7 +351,7 @@ blockquote {
   }
 
   .intro .intro-meta,
-  .intro .register {
+  .intro {
     margin-top: 60px;
   }
 
